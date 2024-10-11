@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    margin:100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 15px;
+    padding: 90px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+h1{
+    margin-top: 70px;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(25, 26, 66);
+}
+p{
+    margin: 30px 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: rgb(25, 26, 66);
+    font-size: 14px;
+}
+span{
+    margin-top: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    color: orange;
+}
+button{
+    margin: 30px;
+    background-color: rgb(28, 28, 47);
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
